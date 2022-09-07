@@ -29,7 +29,7 @@ $data7 = $obj->query7();
 <table>
     <?php
 
-    echo "<h2>Query1</h2>";
+    echo "<h2>Query to list employee first name with salary greater than 50k</h2>";
     $i=0;
 while($data1[$i]["first_name"]!=NULL){
     ?>
@@ -46,7 +46,7 @@ while($data1[$i]["first_name"]!=NULL){
 
 <table>
     <?php
-    echo "<h2>Query2</h2>";
+    echo "<h2>Query to list employee last name with graduation percentile greater than 70%</h2>";
     $j=0;
 while($data2[$j]["employee_last_name"]!=NULL){
     ?>
@@ -64,7 +64,7 @@ while($data2[$j]["employee_last_name"]!=NULL){
 
 <table>
     <?php
-    echo "<h2>Query3</h2>";
+    echo "<h2>Query to list all employee code name with graduation percentile less than 70%</h2>";
     $k=0;
 while($data3[$k]["employee_code_name"]!=NULL){
     ?>
@@ -82,7 +82,7 @@ while($data3[$k]["employee_code_name"]!=NULL){
 
 <table>
     <?php
-    echo "<h2>Query4</h2>";
+    echo "<h2>Query to list all employee's fullname that are not of domain java</h2>";
     $l=0;
 while($data4[$l]["Fullname"]!=NULL){
     ?>
@@ -100,7 +100,7 @@ while($data4[$l]["Fullname"]!=NULL){
 
 <table>
     <?php
-    echo "<h2>Query5</h2>";
+    echo "<h2>Query ro list all employee_domain with sum of it's salary</h2>";
     $m=0;
 while($data5[$m]["employee_domain"]!=NULL){
     ?>
@@ -118,7 +118,7 @@ while($data5[$m]["employee_domain"]!=NULL){
 
 <table>
     <?php
-    echo "<h2>Query6</h2>";
+    echo "<h2>write the about query again but don't include salaries which is less than 30k</h2>";
     $n=0;
 while($data6[$n]["employee_domain"]!=NULL){
     ?>
@@ -136,7 +136,7 @@ while($data6[$n]["employee_domain"]!=NULL){
 
 <table>
     <?php
-    echo "<h2>Query7</h2>";
+    echo "<h2>Query to list all employee id which has not been assigned employee code</h2>";
     $o=0;
 while($data7[$o]["id_of_Unassigned_employee_code"]!=NULL){
     ?>

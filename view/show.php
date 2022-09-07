@@ -18,7 +18,6 @@ $data1 = $obj->displayData('employee_code_table');
 $data2 = $obj->displayData('employee_salary_table');
 $data3 = $obj->displayData('employee_details_table');
 
-// var_dump($data1);
 $i=0;
 ?>
 <h2>employee_code_table</h2>

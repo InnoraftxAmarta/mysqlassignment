@@ -16,7 +16,6 @@ class employee
         } 
         else {
                echo "connected";
-            // return $this->con;
         }
     }
     public function displayData($tablename){
@@ -29,7 +28,6 @@ class employee
                    
             }
             return $data;
-            //  var_dump($data);
             }else{
              echo "No found records";
             }
