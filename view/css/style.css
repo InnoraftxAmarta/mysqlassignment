@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+table ,td,th ,tr{
+    border: 1px solid black;
+    
+}
+table {
+    width: 50%;
+}
+body .con{
+    
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.247);
+    align-items: center;
+    height: 400px;
+}
+h3{
+    padding-top: 80px;
+    color: rgb(16, 16, 196);
+    text-align: center
+}
+
+a{
+margin-left: 180px;
+background-color: rgb(13, 13, 146);}
+
